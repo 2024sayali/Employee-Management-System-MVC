@@ -22,3 +22,46 @@ This project follows the **MVC architecture** to ensure modularity, maintainabil
 | **Architecture** | MVC (Model–View–Controller) |
 | **Server** | Apache Tomcat |
 | **IDE** | IntelliJ IDEA / Eclipse 
+
+*Project Structure*
+Employee-Management-System/
+│
+├── webapp/
+│   ├── WEB-INF/
+│   │   └── web.xml
+│   │
+│   ├── addemp.html
+│   ├── AdminLogin.html
+│   ├── EmployeeLogin.html
+│   ├── EmployeeRegister.html
+│   ├── index.html
+│   │
+│   ├── JSP/
+│   │   ├── Edit.jsp
+│   │   ├── EmployeeAdded.jsp
+│   │   ├── Login.jsp
+│   │   ├── Msg.jsp
+│   │   ├── UpdateEmp.jsp
+│   │   └── ViewAllEmployee.jsp
+│
+├── src/
+│   └── main/
+│       └── java/
+│           └── test/
+│               ├── AddEmpServlet.java
+│               ├── AdminBean.java
+│               ├── AdminLoginServlet.java
+│               ├── DAOAddEmployee.java
+│               ├── DAOAdminLogin.java
+│               ├── DAODelete.java
+│               ├── DAOUpdate.java
+│               ├── DAOViewAllEmployee.java
+│               ├── DBCon.java
+│               ├── DeleteServlet.java
+│               ├── EditServlet.java
+│               ├── EmployeeBean.java
+│               ├── EmployeeDAO.java
+│               ├── LogoutServlet.java
+│               ├── RegisterServlet.java
+│               ├── UpdateEmpServlet.java
+│               └── ViewEmpServlet.java
