@@ -25,8 +25,6 @@ This project follows the **MVC architecture** to ensure modularity, maintainabil
 
 ## Project Structure
 
-## Project Structure
-
 ### webapp/
 - WEB-INF/
   - web.xml
